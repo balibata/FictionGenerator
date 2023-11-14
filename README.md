@@ -6,9 +6,6 @@ Edited by Muyang Li, Qinwen Ge
 
 Wi
 
-## General structure
-
-## Models and Datasets
 
 ## Our methods
 
@@ -32,10 +29,12 @@ In our Fiction Generator project, we leverage OpenAI's GPT API to enable the gen
 - **Adaptive Output Generation**: The integration of GPT with our function allows for flexible and context-sensitive generation of narrative content, adapting to the diverse and creative inputs provided by users.
 
 ### Design with Chatgpt builder
+![image](https://github.com/balibata/FictionGenerator/assets/62224223/53698480-4e42-4014-afcc-d93e44bb0ba2)
 
 ### Design with finetuned model
 
  
+## Models and Datasets
 
 ## Demo
 
