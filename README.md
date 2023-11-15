@@ -1,4 +1,4 @@
-# Novel Generator: Attempts for fictional content generation
+# Fiction Generator: Attempts for short novel content generation
 
 Edited by Muyang Li, Qinwen Ge
 
