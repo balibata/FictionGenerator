@@ -1,4 +1,4 @@
-# Fiction Generator: Attempts for fictional content generation
+# Novel Generator: Attempts for fictional content generation
 
 Edited by Muyang Li, Qinwen Ge
 
@@ -17,7 +17,13 @@ Existed ai story generator:
 
 
 ## Our methods
+### Design with Chatgpt builder
 
+![image](https://github.com/balibata/FictionGenerator/assets/62224223/53698480-4e42-4014-afcc-d93e44bb0ba2)
+
+### Design with finetuned model
+
+Alpaca-Lora: https://github.com/tloen/alpaca-lora
 ### Design with ChatGPT API
 
 #### Overview
@@ -40,13 +46,7 @@ In our Fiction Generator project, we leverage OpenAI's GPT API to enable the gen
 - **Dynamic Prompt Construction**: Our fiction generator can construct prompts tailored to the user's inputs, which are then passed to the GPT model for content generation.
 - **Adaptive Output Generation**: The integration of GPT with our function allows for flexible and context-sensitive generation of narrative content, adapting to the diverse and creative inputs provided by users.
 
-### Design with Chatgpt builder
 
-![image](https://github.com/balibata/FictionGenerator/assets/62224223/53698480-4e42-4014-afcc-d93e44bb0ba2)
-
-### Design with finetuned model
-
-Alpaca-Lora: https://github.com/tloen/alpaca-lora
 
 ## Demo
 
