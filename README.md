@@ -75,8 +75,8 @@ The model has been modified from a standard transformer in the following ways:
 - It uses ALiBi (Attention with Linear Biases) and does not use positional embeddings
 - It does not use biases
 
-**Datasets: **
-**- dell-research-harvard/AmericanStories
+**Datasets:
+- dell-research-harvard/AmericanStories
 - the_pile_books3 (Unavailable now due to reported copyright infringement)**
 ## Demo
 
