@@ -53,7 +53,17 @@ Alpaca-Lora: https://github.com/tloen/alpaca-lora
 https://bf2f744e44d7395e09.gradio.live/
 
 ## Limitations and Critical Analysis
+**What we have done:**
 
+- Modular customization of the main parts of the novel generation
+- Text generation accuracy evaluation
+- Flexibility for modifying details of novels.
+
+**Problems and future improvements:**
+
+- Emotion mismatching due to openai's emotional control on chatgpt api
+- Less efficiency of Chatgpt 3.5
+- Much scientific design of structure tree for writing novel
 ## Resources
 
 **Models: mpt-7b-storywriter :Example Epilogue**
