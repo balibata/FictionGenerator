@@ -3,7 +3,7 @@
 Edited by Muyang Li, Qinwen Ge
 
 ## Background & Ideas
-
+![Reverie](Reverie.png)
 **This is a pre-computed replay of a simulation that accompanies the paper entitled "Generative Agents: Interactive Simulacra of Human Behavior." It is for demonstration purposes only.**
 
 
