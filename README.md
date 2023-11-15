@@ -32,10 +32,51 @@ In our Fiction Generator project, we leverage OpenAI's GPT API to enable the gen
 ![image](https://github.com/balibata/FictionGenerator/assets/62224223/53698480-4e42-4014-afcc-d93e44bb0ba2)
 
 ### Design with finetuned model
+Alpaca-Lora: https://github.com/tloen/alpaca-lora
 
- 
 ## Models and Datasets
+Models: mpt-7b-storywriter :Example Epilogue
+The full text of the The Great Gatsby (67873 tokens) was fed to the model, followed by the text "EPILOGUE"
 
+TheRealFitzgerald233:
+
+...
+
+So we beat on, boats against the current, borne back ceaselessly into the past
+
+EPILOGUE
+
+MPT-7B-StoryWriter:
+
+I have lived so long in the shadow of this dream that I may never see the bright sunlight of reality. I may look up some morning and find that I am six feet under, and that Gatsby, who gave me the dream and everything else, will have vanished behind me.
+
+And so it was. I had hardly crossed the threshold of the old world when my eye caught the headlines of a newspaper, and I knew at once that my dream was over. I knew that Gatsby was dead.
+
+And I knew that day that I didn't love her.
+
+That night I took the last train for West Egg, and when I reached home I went directly to my attic and brought down all Gatsby's letters.
+
+I have sorted them by date and placed them in the order in which they were written. They are very few in number.
+
+They are dated between April of nineteen eighteen and January of nineteen nineteen, and the last one I have here is the one that told me he was dead.
+
+There is something in that last letter that frightens me. It is the sense of a finality, of a completeness. I never heard of him after that, and I was glad.
+
+But a few months ago I read somewhere that he had been seen in New York. He had become a great man.
+
+And I knew that he had not changed at all.
+
+Model Description
+The architecture is a modification of a standard decoder-only transformer.
+
+The model has been modified from a standard transformer in the following ways:
+
+It uses FlashAttention
+It uses ALiBi (Attention with Linear Biases) and does not use positional embeddings
+It does not use biases
+Datasets: 
+- dell-research-harvard/AmericanStories
+- the_pile_books3 (Unavailable now due to reported copyright infringement)
 ## Demo
 
 ## Limitations and Critical Analysis
