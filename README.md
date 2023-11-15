@@ -35,7 +35,7 @@ In our Fiction Generator project, we leverage OpenAI's GPT API to enable the gen
 Alpaca-Lora: https://github.com/tloen/alpaca-lora
 
 ## Models and Datasets
-Models: mpt-7b-storywriter :Example Epilogue
+**Models: mpt-7b-storywriter :Example Epilogue**
 The full text of the The Great Gatsby (67873 tokens) was fed to the model, followed by the text "EPILOGUE"
 
 TheRealFitzgerald233:
@@ -71,12 +71,13 @@ The architecture is a modification of a standard decoder-only transformer.
 
 The model has been modified from a standard transformer in the following ways:
 
-It uses FlashAttention
-It uses ALiBi (Attention with Linear Biases) and does not use positional embeddings
-It does not use biases
-Datasets: 
-- dell-research-harvard/AmericanStories
-- the_pile_books3 (Unavailable now due to reported copyright infringement)
+- It uses FlashAttention
+- It uses ALiBi (Attention with Linear Biases) and does not use positional embeddings
+- It does not use biases
+
+**Datasets: **
+**- dell-research-harvard/AmericanStories
+- the_pile_books3 (Unavailable now due to reported copyright infringement)**
 ## Demo
 
 ## Limitations and Critical Analysis
