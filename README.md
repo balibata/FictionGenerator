@@ -50,7 +50,7 @@ Alpaca-Lora: https://github.com/tloen/alpaca-lora
 
 ## Demo
 
-https://bf2f744e44d7395e09.gradio.live/
+[https://bf2f744e44d7395e09.gradio.live/](https://420e695c0f17cb6e51.gradio.live)
 
 ## Limitations and Critical Analysis
 **What we have done:**
