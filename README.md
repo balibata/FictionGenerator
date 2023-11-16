@@ -52,8 +52,7 @@ In our Fiction Generator project, we leverage OpenAI's GPT API to enable the gen
 
 ## Demo
 
-[https://bf2f744e44d7395e09.gradio.live/](https://420e695c0f17cb6e51.gradio.live)
-
+https://huggingface.co/spaces/Balibata/ShortNovelGenerator
 ## Limitations and Critical Analysis
 **What we have done:**
 
