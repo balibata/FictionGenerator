@@ -121,7 +121,7 @@ The model has been modified from a standard transformer in the following ways:
 - https://huggingface.co/mosaicml/mpt-7b-storywriter
 - https://huggingface.co/datasets/dell-research-harvard/AmericanStories
 
-## Short Video
+## Overview Video
 - https://youtu.be/puurqscFI2c 
 
 ## Reference
